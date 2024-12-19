@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'shttps://github.com/anwarr1/Gestion-Biblioth-que.git'
+                git 'https://github.com/anwarr1/Gestion-Biblioth-que.git'
             }
         }
         stage('Build') {
